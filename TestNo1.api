@@ -1,0 +1,24 @@
+#This is a comment!
+#Syntax looks like this:
+
+item class
+name MyClass
+description This is a test class!
+  MyClass function
+  type staticmethod
+  funcname MyFunc
+  arguments (MyArg1: int, MyArg2: *args)
+    import MyLib as ml
+    ml.test("My String!")
+    with open(MyArg1, 'wb') as f:
+      f.write(MyArg2)
+  close
+close
+
+#So MyClass function is def Name
+#type: @staticmethod/@classmethod
+#funcname: Name of the function
+#arguments: self-explantory
+#Python logic
+#close and close to close everything
+

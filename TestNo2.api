@@ -1,0 +1,10 @@
+#Hi! AutoAPI test 2, Creating a API that takes the timestamp and prints it...
+
+item function
+funcname PrintTime
+description This function takes the time and prints it using datetime!
+arguments ()
+  from datetime import datetime, date
+  now = datetime.now()
+  print(f"[{now}]\n")
+close
